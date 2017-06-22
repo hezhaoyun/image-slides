@@ -27,7 +27,7 @@ export class PagesProvider {
 		return this.pagesCount() > SLIDES_CAPACITY;
 	}
 
-	batchPullPages(currentPage: number): Page[] {
+	batchPullpages(currentPage: number): Page[] {
 
 		if (currentPage < 0 || currentPage >= this.pagesCount()) {
 			return [];
